@@ -1,0 +1,6 @@
+# Ignore files called 'file.ext'
+
+# Ignoring directories 'directory/'
+
+# Ignoring files by extension '*.ext'
+.txt
