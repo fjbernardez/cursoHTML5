@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* selector de etiquetas  --> nombrar el nombre de la etiqueta */
+/* selector de tipo id    --> utilizar #"nombre" */
+/* selector de clase      --> */
+
+#cabeceraWeb{
+  background-color: #00F;
+}
+
+#navegacionPrincipal{
+  background-color: #F00;
+}
+
+#barraLateral{
+  background-color: #0F0;
+  /* rompe el flujo de como se coocan los elemtos. */
+  float: left;
+  height: 1560px;
+}
+
+#contenidoPrincipal{
+  background-color: #606;
+  /* distancia del contenedor al contenido */
+  margin-left: 220px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#piePrincipal{
+  background-color: #FF0;
+  /* genera que considero solidos a los elementos tipo float, evitando la superposicion */
+  clear: both;
+  margin-top: 30px;
+}
+
+li{
+  background-color: #FF0;
+  /* los elementos se alinean, ocupando entre todos el ancho de la pantalla */
+  display: inline;
+}
