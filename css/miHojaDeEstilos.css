@@ -2,7 +2,7 @@
 
 /* selector de etiquetas  --> nombrar el nombre de la etiqueta */
 /* selector de tipo id    --> utilizar #"nombre" */
-/* selector de clase      --> */
+/* selector de clase      --> precedido por un punto ".nombre" es aplicable a difernetes objetos, no solo a uno*/
 
 #cabeceraWeb{
   background-color: #00F;
